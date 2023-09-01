@@ -1,0 +1,153 @@
+*{
+    margin: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+body{
+    background-color: white;
+}
+header{
+    background-color: white;
+}
+.header{
+    display:flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+}
+.logo__avatar{
+    border-radius: 100%;
+    width: 20%;
+}
+.menu{
+    margin-top: 5%;
+}
+.opciones{
+    display: flex;
+    list-style: none;
+    width: 100%;
+}
+.menu__opcion{
+    text-decoration: none;
+    box-sizing: border-box;
+    color: white;
+    font-size: 200%;
+    top: 20%;
+    border-radius: 10px;
+    background-color:#0D6EFD;
+    padding: 5%;
+    margin-right: 40px;
+}
+.menu__opcion:hover{
+    background-color:blueviolet;
+}
+.img1{
+    width: 100%;
+}
+.quienessomos{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding: 0%;
+}
+.texto1{
+    padding: 0%;
+}
+.titulo1{
+    color: black;
+    font-size: 50px;
+    padding: 5%;
+}
+.parrafo1{
+    padding: 5% 40% 0 5%;
+    font-size: 20px;
+    padding-bottom: 50px;
+}
+.img2{
+    width: 100%
+}
+.linea{
+    width: 70%;
+    border-top: 5px solid black;
+}
+.img3{
+    width: 100%;
+}
+.noticias1{
+    background-color: #0D6EFD;
+    padding: 50px;
+}
+.noticias2{
+    color: white;
+    font-size: 50px;
+}
+.ntc{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+.ntc1{
+    width: 100%;
+    padding: 40px;
+}
+.ntc2{
+    padding: 40px;
+    width: 100%;
+}
+.parrafo__noticias{
+    color: black;
+    font-size: 24px;
+    padding: 40px;
+}
+.imgntc{
+    width: 500px;
+    height: 300px;
+}
+.estadisticas{
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 100px 40px 100px;
+}
+.socios{
+    padding: 50px;
+    margin: 20px;
+    width: 1000px;
+    border-radius: 30px;
+}
+.ganados{
+    padding: 50px;
+    margin: 20px;
+    width: 1000px;
+    border-radius: 30px;
+}
+.parrafo__mensaje{
+    font-size: 20px;
+    color: black;
+    padding-top: 10%;
+    padding-bottom: 10%;
+}
+.titulo__mensaje{
+    margin-top: 10%;
+    font-size: 30px;
+    color: black;
+    padding: 0;
+}
+.eimg{
+    width: 50%;
+}
+footer{
+    background-color: #0D6EFD;
+    display: flex;
+    flex-direction: row;
+    padding: 60px;
+    align-items: center;
+}
+.texto__sigueme{
+    color: white;
+    margin-right: 80px;
+}
+.personal__opciones{
+    width: 50PX;
+    margin-left: 30px;
+}
